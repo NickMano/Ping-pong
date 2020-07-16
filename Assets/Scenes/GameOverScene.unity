@@ -330,10 +330,11 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ef1b4ef7f773d434f825c3c8f762676c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a87e44157d40439b80c306669af76cd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -403,11 +404,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 20aed0f04907f4bb08bccb32d82063bc, type: 3}
+    m_Font: {fileID: 12800000, guid: 31229770e5c1d4fcd813150e0ee324e4, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -480,11 +482,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 20aed0f04907f4bb08bccb32d82063bc, type: 3}
+    m_Font: {fileID: 12800000, guid: 31229770e5c1d4fcd813150e0ee324e4, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -706,10 +709,11 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9811321, g: 0.31933072, b: 0.32537454, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bcf4769fd8ada4ea7929effeb3b306da, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0be09e466daf44a1db725098199fa568, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -753,7 +757,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1509686191}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 028a1ad27bbce41ccbd8c6ac7d5948a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 395cbb1749c1c4a1691a7698b214ad6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1509686193
