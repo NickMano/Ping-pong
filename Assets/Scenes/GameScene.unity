@@ -181,7 +181,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a3979c6276d524d5187716ee77f641b7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bf02efd78cb834035aea4a9c305d890c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -215,13 +215,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 78436387}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29530462b67564177a3abf635e99a686, type: 3}
+  m_Script: {fileID: 11500000, guid: aac331e5fae4843ca98922a98df52438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   paddle: {fileID: 1522604910}
   rbBall: {fileID: 78436391}
   gameStarted: 0
-  vel: 16
+  vel: 14
 --- !u!50 &78436391
 Rigidbody2D:
   serializedVersion: 4
@@ -252,7 +252,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 78436387}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e799af41f22ba464a942dd1633dda149, type: 2}
+  m_Material: {fileID: 6200000, guid: 8037a1656e69f40cba3042f080526494, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -269,8 +269,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3d0c37e574ebd4458aa37845f1fbd03a, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 8762e42dffdb24e46818bff1e0de7f99, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
@@ -526,11 +526,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 824967970}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8f4c19b91f784619ba1c30356bcb0f3, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b199d5ea374b4db082c8ffbdc32a6bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 78436387}
-  speed: 0.03
+  speed: 0.02
 --- !u!212 &824967973
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -570,7 +570,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 72a64863b04cb444e8fc18fb1c79e257, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4bd8a759fe2ea4fc8bf21bf19606d4f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -621,7 +621,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1249481611}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 028a1ad27bbce41ccbd8c6ac7d5948a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 395cbb1749c1c4a1691a7698b214ad6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1249481613
@@ -665,7 +665,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0999fa088125644dcb31fc42a6d90ba3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cec79ebfab4474c12b415a71bf5a2263, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -823,7 +823,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 72a64863b04cb444e8fc18fb1c79e257, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4bd8a759fe2ea4fc8bf21bf19606d4f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -857,7 +857,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1522604908}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01f6473ed40da4b198553081e23c2fc2, type: 3}
+  m_Script: {fileID: 11500000, guid: 21e272296a99144cb9757af767c5d3dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1522604912
@@ -938,11 +938,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 20aed0f04907f4bb08bccb32d82063bc, type: 3}
+    m_Font: {fileID: 12800000, guid: 31229770e5c1d4fcd813150e0ee324e4, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -1198,7 +1199,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1864737064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9762839fa84f41c28883150af5e36f7, type: 3}
+  m_Script: {fileID: 11500000, guid: 719216c34eb9040b697e5b60424f6432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerScoreText: {fileID: 1965323036}
@@ -1214,8 +1215,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 85e9b7cf6f1f1433891495f9ea691bc0, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 1751127bb9b994938a6c8d8eb37890b2, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1356,7 +1357,7 @@ SpriteRenderer:
   m_SortingLayerID: 59105761
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bcf4769fd8ada4ea7929effeb3b306da, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0be09e466daf44a1db725098199fa568, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1506,7 +1507,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1955247061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9762839fa84f41c28883150af5e36f7, type: 3}
+  m_Script: {fileID: 11500000, guid: 719216c34eb9040b697e5b60424f6432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerScoreText: {fileID: 1965323036}
@@ -1522,8 +1523,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 85e9b7cf6f1f1433891495f9ea691bc0, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 1751127bb9b994938a6c8d8eb37890b2, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1660,11 +1661,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 20aed0f04907f4bb08bccb32d82063bc, type: 3}
+    m_Font: {fileID: 12800000, guid: 31229770e5c1d4fcd813150e0ee324e4, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -1794,11 +1796,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 20aed0f04907f4bb08bccb32d82063bc, type: 3}
+    m_Font: {fileID: 12800000, guid: 31229770e5c1d4fcd813150e0ee324e4, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
